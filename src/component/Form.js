@@ -1,0 +1,22 @@
+import React, {Component} from 'react';
+import ReactDom from 'react-dom';
+
+const Form = () =>
+{
+return(
+    <form>
+        <input type="text" class="todo-input"/>
+        <button class="todo-button" type="submit">
+        
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">uncompleted</option>
+            </select>
+        </div>
+    </form>
+);
+}
+export default Form;
